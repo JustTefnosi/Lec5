@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 3px solid black;
+    height: 500px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(100px, 100px) ) ;
+    gap: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    background-color: blue;
+}
+
+.box1 {
+    background-color: red;
+
+    grid-area: 1 / 1 / span 1/ span 1;
+}
